@@ -1,0 +1,344 @@
+html {
+  width: 375px;
+  height: 667px; 
+}
+body{
+  background-image: url("/Users/orideangelis/Desktop/ima capstone/HTML FILES/Landing Page/data/fondo.jpg");
+  background-size: 550%;
+  background-color:#F9B594;
+  margin:0px; 
+  margin-left:0px; 
+  margin-right: 0px;
+  padding:0px;
+  border:0px; 
+  overflow-x: hidden;
+  cursor: default;
+}
+.frame {
+  display:block;
+  z-index: 0.5;
+  height:35px;
+  width: 120px;
+  background-color:rgba(242, 125, 99,0.8);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.frame:hover{
+  -webkit-box-shadow: 32px 31px 31px 3px rgb(255,255,255);
+  -moz-box-shadow: 32px 31px 31px 3px rgb(255,255,255);
+  box-shadow: 32px 31px 31px 3px rgb(255,255,255);
+  cursor: pointer; 
+}
+
+#h1 {
+  position: sticky; 
+  position: -webkit-sticky;
+  top: 0px;
+  margin: 0px;
+  font-family: Futura;
+  font-weight: 600;
+  font-size: 70px;
+  text-transform: uppercase;
+  height:50px;
+  text-align: center;
+  color:rgb(242, 125, 99);
+  text-shadow: 10px 10px rgba(255,255,255, 0.8);
+  cursor: pointer;
+}
+
+#h2 { 
+  position: sticky; 
+  position: -webkit-sticky;
+  top: 100px;
+  margin-left: 60%;
+  font-family: Futura;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 5%;
+  font-style: italic;
+  text-align: center;
+  color: white;
+}
+
+#sidebar{
+  position: sticky;
+  position: -webkit-sticky;
+  width:40px;
+  top: 100px; 
+  float: left;
+  margin-left: 10px; 
+}
+
+#button1 {
+  width:40px;
+  height: 10px;
+  margin: 5px; 
+  background-color:rgba(242, 125, 99,0.8);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  cursor: pointer; 
+}
+
+#button1:hover {
+  opacity:0.6;
+}
+
+#text1{
+  display: inline-block;
+  margin-top: 25%;
+  margin-right:20px; 
+  margin-left: 20px; 
+  font-family: Futura;
+  font-weight: 60px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+#text2{
+  display: none;
+  margin-top: 10%;
+  margin-right:20px; 
+  margin-left: 20px; 
+  font-family: Futura;
+  font-weight: 60px;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+#arrow{
+  height: 20px;
+  margin-bottom: 30px; 
+  float:right;
+  margin-right:20px; 
+}
+#arrow2{
+  height: 20px;
+  margin-bottom: 30px;
+  float:right;
+  margin-right:20px; 
+}
+
+#papaya{ 
+  display:inline-block;
+  max-width:280px;
+  margin-top: 20%;
+  margin-left: 5%;
+  
+}
+#frame {  
+  margin-left: 20%;
+  display: none;
+  margin-top:12%;
+  width: 288px;
+  height:510px;
+  background-color:rgba(255, 255, 255, 0.8);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 10px 10px 10px 4px rgba(242, 125, 99, 0.6);
+}
+
+.frame2 {  
+  height:100%; 
+  width:20%;
+  margin-left:40%;
+  margin-top: 18%; 
+  display: none;
+  background-color:rgba(255, 255, 255, 0.8);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 10px 10px 10px 4px rgba(242, 125, 99, 0.6);
+}
+
+#infobubbletext{ 
+  font-family: Futura;
+  font-weight: 60px;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+#close {
+  cursor: pointer;
+  height: 30px;
+  margin-right:5px;
+  margin-top: 2px;
+  float:right;
+}
+
+#exit {  
+  cursor: pointer;
+  height: 10%;
+  float:right;
+ }
+
+ .sections { 
+  display: inline-block;
+  width:100%; 
+  height: 100%;
+  margin-top: 20%; 
+  }
+
+ .question {
+  display: inline-block; 
+  cursor:pointer;
+  height:auto; 
+  max-width: 80px;
+  margin-right: 10px; 
+ }
+.question:hover {
+  opacity: 0.6; 
+  cursor: pointer; 
+}
+
+#one {
+  float: right; 
+  padding-bottom: 0px; 
+  margin-top: 25px; 
+}
+#two {
+  float: right; 
+  margin-top: 100px;
+  padding-bottom: 30px; 
+}
+
+#three{
+  float: right; 
+  margin-top: 100px;
+  padding-bottom: 50px; 
+}
+
+#four {
+  float: right; 
+  margin-top: 60px;
+  padding-bottom: 50px; 
+}
+
+ #vajajay {
+  display:inline-block;
+  max-height:370px;
+  max-width: 438px; 
+  float: right; 
+  margin-right: 25%; 
+  cursor:pointer;
+  padding-top: 150px;
+ }
+
+#fruit {
+  display:inline-block;
+  max-width: 300px; 
+  max-height: 400px;
+  margin-right: 20px; 
+  float: right; 
+  cursor:pointer;
+  padding-top: 100px;
+}
+
+#hands{
+  display:inline-block;
+  max-height:280px;
+  max-width: 400px; 
+  margin-right: 5%; 
+  max-height: auto;
+  float: right; 
+  cursor:pointer;
+  padding-top: 200px;
+}
+
+#orgasm {
+  display:inline-block;
+  max-width: 300px; 
+  margin-right: 10%;
+  max-height: auto;
+  float: right; 
+  cursor:pointer;
+  padding-top: 200px;
+}
+
+#backToTop {
+position: sticky; 
+position: -webkit-sticky;
+margin-left: 60%;
+height: 50px;
+font-family: Futura;
+text-align: center; 
+width: 150px; 
+bottom: 0px;
+background-color:rgba(242, 125, 99,0.8);
+border: 2px solid rgba(255, 255, 255, 0.5);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+cursor: pointer; 
+}
+
+#papaya:hover{ 
+
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+
+  animation: shake 0.5s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+.question: hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+
+  animation: shake 0.5s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+#fruit:hover {
+    animation: shake 0.9s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+#vajajay:hover {
+  animation: shake 0.9s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+#hands:hover {
+   animation: shake 0.9s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+#orgasm:hover {
+  animation: shake 0.9s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
